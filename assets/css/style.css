@@ -1,0 +1,116 @@
+/*************** STYLES ***************/
+
+/* GENERAL  */
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  font-family: "Poppins-Black";
+  font-size: 30px;
+}
+h2 {
+  font-family: "Poppins-ExtraBold";
+  font-size: 28px;
+}
+h3 {
+  font-family: "Poppins-Bold";
+  font-size: 25px;
+}
+h4 {
+  font-family: "Poppins-SemiBold";
+  font-size: 20px;
+}
+p {
+  font-family: "Poppins-Thin";
+  font-size: 16px;
+}
+ul li {
+  font-family: "Poppins-Regular";
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*INTEGRATION DES FONT-FACES*/
+
+@font-face {
+  font-family: "Poppins-Black";
+  src: url(../fonts/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url(../fonts/KoHo-Light.ttf);
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Poppins-Thin";
+  src: url(../fonts/Poppins-Thin.ttf);
+}
+
+/* HEADER */
+
+.navbar a {
+  font-family: "Poppins-SemiBold";
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.navbar .navbar-nav .nav-link {
+  color: #202020;
+  position: relative;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #202020;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.5s ease-in-out;
+}
+.navbar .navbar-nav .nav-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+.navbar .navbar-nav .nav-link:visited {
+  color: #202020;
+}
+
+/* HOMEPAGE  */
+.main-img {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
+}
+.main {
+  height: 500px;
+}
