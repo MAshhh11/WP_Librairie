@@ -24,16 +24,16 @@ $asset = get_site_url() . '/assets/img/';
 						<img id="bts-logo" src="<?php echo $asset ?>logo@2x.png" alt="logo_bts" style="width:20%">
 					</div>
 					<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-						<h4>NOUS RENCONTRER</h4>
+						<h4>Nous rencontrer</h4>
 						<p><i class="fas fa-caret-right"></i> adresse</p>
 					</div>
 					<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-						<h4>NOUS CONTACTER</h4>
+						<h4>Nous contacter</h4>
 						<p><i class="fas fa-caret-right"></i> +33 numero</p>
 						<p><i class="fas fa-caret-right"></i> Par Mail</p>
 					</div>
 					<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-						<h4>NOUS RETROUVER</h4>
+						<h4>Nous retrouver</h4>
 						<!-- <img class="linkd" src="<?php echo $asset ?>icone_linkedin@2x.png" style="width:10%;" alt="linkedin"> -->
 						<p><i class="fas fa-caret-right"></i> lien FB</p>
 					</div>

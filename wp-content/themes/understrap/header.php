@@ -38,7 +38,7 @@ $container = get_theme_mod('understrap_container_type');
 			<div class="container-fluid ">
 				<div class="row">
 					<div class="col-12">
-						<div class="container">
+						<!-- <div class="container">
 							<div class="row justify-content-between">
 								<div class="m-2">
 									<p>Espace client</p>
@@ -47,7 +47,7 @@ $container = get_theme_mod('understrap_container_type');
 									<p>log in</p>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 				<div class="row">
