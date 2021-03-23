@@ -37,9 +37,58 @@ get_header();
 						<h2><?= the_title() ?></h2>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-12">
+				<div class="row justify-content-center">
+					<div class="col-12 py-5 mt-3">
 						<?= the_content(); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<?php
+	$articles = get_field('article');
+	?>
+	<div class="row articles justify-content-center">
+		<div class="col-12">
+			<div class="container">
+				<div class="row">
+					<h3>NOS ARTICLES</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="container">
+				<div class="col-12">
+					<div class="row justify-content-around mt-5">
+						<?php foreach ($articles as $article) : ?>
+							<div class="card" style="width: 40%;">
+								<img class="card-img-top" src="<?= $article['image']['url']; ?>" alt="Card image cap">
+								<div class="card-body">
+									<h4><?= $article['titre']; ?></h4>
+									<p class="card-text"><?= $article['texte']; ?></p>
+								</div>
+							</div>
+						<?php endforeach; ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row video justify-content-center">
+		<div class="col-12">
+			<div class="container">
+				<div class="row">
+					<h3>LIVRE POPULAIRES DE L'ANNEE</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="container mb-5">
+				<div class="col-12">
+					<div class="row justify-content-center mt-5 mb-5">
+						<div class="col-12">
+							<?php the_field('video'); ?>
+						</div>
 					</div>
 				</div>
 			</div>
