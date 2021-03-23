@@ -116,4 +116,5 @@ a {
 }
 .main {
   height: 500px;
+  background-position: bottom;
 }
