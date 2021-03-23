@@ -15,8 +15,8 @@ $asset = get_site_url() . '/assets/img/';
 ?>
 
 </main>
-<footer class="container-fluid">
-	<div class="row">
+<footer class="container-fluid bg-Yellow">
+	<div class="row p-5">
 		<div class="col-12">
 			<div class="container">
 				<div class="row">

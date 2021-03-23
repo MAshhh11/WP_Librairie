@@ -35,7 +35,7 @@ $container = get_theme_mod('understrap_container_type');
 
 		<!-- ******************* The Navbar Area ******************* -->
 		<header id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
-			<div class="container-fluid ">
+			<div class="container-fluid bg-Yellow">
 				<div class="row">
 					<div class="col-12">
 						<!-- <div class="container">

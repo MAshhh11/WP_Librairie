@@ -38,7 +38,7 @@ get_header();
 					</div>
 				</div>
 				<div class="row justify-content-center">
-					<div class="col-12 py-5 mt-3">
+					<div class="col-12 p-5 mb-3">
 						<?= the_content(); ?>
 					</div>
 				</div>
