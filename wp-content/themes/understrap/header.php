@@ -65,7 +65,7 @@ $container = get_theme_mod('understrap_container_type');
 
 										<?php else : ?>
 
-											<a class="navbar-brand" rel="home" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" itemprop="url"><img id="bts-logo" src="<?php echo $asset ?>logo@2x.png" alt="logo_bts" style="width:20%"></a>
+											<a class="navbar-brand" rel="home" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" itemprop="url"><img id="bts-logo" src="<?php echo $asset ?>logo@2x.png" alt="logo_lib" style="width:20%"></a>
 
 										<?php endif; ?>
 

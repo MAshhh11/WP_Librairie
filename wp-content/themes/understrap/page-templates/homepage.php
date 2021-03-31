@@ -88,15 +88,21 @@ get_header();
 				</div>
 			</div>
 		</div>
+		<?php
+		$videos = get_field('video');
+		?>
 		<div class="row mb-5">
-			<div class="container mb-5">
-				<div class="col-12">
-					<div class="row justify-content-center mt-5 mb-5">
-						<div class="col-12">
-							<?php the_field('video'); ?>
+			<div class="container-fluid mb-5">
+
+				<div class="row justify-content-between mt-5 mb-5">
+					<?php foreach ($videos as $video) : ?>
+						<div class="col-6 mb-3">
+							<?= $video['video']; ?>
 						</div>
-					</div>
+					<?php endforeach; ?>
+
 				</div>
+
 			</div>
 		</div>
 	</div>
