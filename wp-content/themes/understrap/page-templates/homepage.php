@@ -93,14 +93,12 @@ get_header();
 		?>
 		<div class="row mb-5">
 			<div class="container-fluid mb-5">
-
 				<div class="row justify-content-between mt-5 mb-5">
 					<?php foreach ($videos as $video) : ?>
 						<div class="col-6 mb-3">
 							<?= $video['video']; ?>
 						</div>
 					<?php endforeach; ?>
-
 				</div>
 
 			</div>
