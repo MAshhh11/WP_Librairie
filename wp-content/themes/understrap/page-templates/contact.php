@@ -30,7 +30,7 @@ get_header();
     <div class="row main-img" style="background-image:url(<?= get_the_post_thumbnail_url(); ?>);">
     </div>
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 mt-5">
             <div class="container">
                 <div class="row">
                     <div class="the-title">
