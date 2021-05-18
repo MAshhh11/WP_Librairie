@@ -47,4 +47,33 @@ get_header();
     </div>
 </div>
 <?php
+$articles = get_field('article');
+?>
+<div class="row articles justify-content-center">
+    <div class="col-12">
+        <div class="container">
+            <div class="row">
+                <h3>NOS ARTICLES</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="container">
+            <div class="col-12">
+                <div class="row justify-content-around mt-5 mb-5">
+                    <?php foreach ($articles as $article) : ?>
+                        <div class="card" style="width: 45%;">
+                            <img class="card-img-top" src="<?= $article['image']['url']; ?>" alt="Card image cap">
+                            <div class="card-body p-5">
+                                <h4><?= $article['titre']; ?></h4>
+                                <p class="card-text"><?= $article['texte']; ?></p>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php
 get_footer();
