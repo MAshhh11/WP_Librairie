@@ -110,7 +110,7 @@ a {
 .main-img {
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-attachment: fixed;
   height: 500px;
 }
