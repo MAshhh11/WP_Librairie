@@ -115,6 +115,6 @@ a {
   height: 500px;
 }
 .main {
-  height: 500px;
+  height: auto;
   background-position: bottom;
 }

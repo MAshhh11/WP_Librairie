@@ -45,6 +45,20 @@ get_header();
             </div>
         </div>
     </div>
-</div>
-<?php
-get_footer();
+    <?php
+    $image = get_field('image');
+    ?>
+    <div class="row">
+        <div class="col-12">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row">
+                            <img src="<?= $image['url']; ?>" alt="image" style="width: 100%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php
+        get_footer();

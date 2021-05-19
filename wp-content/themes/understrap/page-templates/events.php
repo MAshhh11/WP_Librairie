@@ -38,7 +38,7 @@ get_header();
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 mt-5">
+                    <div class="col-12 mt-5 mb-5">
                         <?= the_content(); ?>
                     </div>
                 </div>
