@@ -114,6 +114,13 @@ a {
   background-attachment: fixed;
   height: 500px;
 }
+.scd-img {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 600px;
+}
 .main {
   height: auto;
   background-position: bottom;

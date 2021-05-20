@@ -61,7 +61,7 @@ get_header();
 				<div class="col-12">
 					<div class="row justify-content-around mt-5 mb-5">
 						<?php foreach ($articles as $article) : ?>
-							<div class="card" style="width: 45%;">
+							<div class="card mb-5" style="width: 45%;">
 								<img class="card-img-top" src="<?= $article['image']['url']; ?>" alt="Card image cap">
 								<div class="card-body p-5">
 									<h4><?= $article['titre']; ?></h4>
@@ -74,7 +74,7 @@ get_header();
 			</div>
 		</div>
 	</div>
-	<div class="row main-img" style="background-image:url(<?= get_the_post_thumbnail_url(); ?>);">
+	<div class="row scd-img" style="background-image:url(<?= get_the_post_thumbnail_url(); ?>);">
 		<div class="container-fluid">
 			<div class="col-12">
 			</div>

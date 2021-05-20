@@ -33,7 +33,7 @@ get_header();
         <div class="col-12 mt-5">
             <div class="container">
                 <div class="row">
-                    <div class="the-title">
+                    <div class="the-title mb-5">
                         <h2><?= the_title() ?></h2>
                     </div>
                 </div>
