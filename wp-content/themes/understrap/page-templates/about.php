@@ -37,8 +37,8 @@ get_header();
                         <h2><?= the_title() ?></h2>
                     </div>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-12">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-12 p-5 mb-3">
                         <?= the_content(); ?>
                     </div>
                 </div>

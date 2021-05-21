@@ -29,16 +29,16 @@ get_header();
 <div class="container-fluid">
     <div class="row main-img" style="background-image:url(<?= get_the_post_thumbnail_url(); ?>);">
     </div>
-    <div class="row">
-        <div class="col-12 mt-5">
+    <div class="row main">
+        <div class="col-12">
             <div class="container">
-                <div class="row">
-                    <div class="the-title mb-5 mt-5">
+                <div class="row mt-5">
+                    <div class="the-title mt-5">
                         <h2><?= the_title() ?></h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-12 p-5 mb-3">
                         <?= the_content(); ?>
                     </div>
                 </div>
