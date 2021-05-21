@@ -32,12 +32,12 @@ get_header();
     <div class="row main">
         <div class="col-12">
             <div class="container">
-                <div class="row">
+                <div class="row mt-5">
                     <div class="the-title mt-5">
                         <h2><?= the_title() ?></h2>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-5">
                     <div class="col-12">
                         <?= the_content(); ?>
                     </div>
@@ -48,10 +48,10 @@ get_header();
     <?php
     $image = get_field('image');
     ?>
-    <div class="row">
+    <div class="row mt-5">
         <div class="col-12">
             <div class="container">
-                <div class="row mb-5">
+                <div class="row mb-5 mt-5">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="row">
                             <img src="<?= $image['url']; ?>" alt="image" style="width: 100%;">

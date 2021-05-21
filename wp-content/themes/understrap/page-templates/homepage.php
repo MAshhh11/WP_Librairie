@@ -32,12 +32,12 @@ get_header();
 	<div class="row main">
 		<div class="col-12">
 			<div class="container">
-				<div class="row">
+				<div class="row mt-5">
 					<div class="the-title mt-5">
 						<h2><?= the_title() ?></h2>
 					</div>
 				</div>
-				<div class="row justify-content-center">
+				<div class="row mt-5 justify-content-center">
 					<div class="col-12 p-5 mb-3">
 						<?= the_content(); ?>
 					</div>
@@ -48,10 +48,10 @@ get_header();
 	<?php
 	$articles = get_field('article');
 	?>
-	<div class="row articles justify-content-center">
+	<div class="row mt-5 articles justify-content-center">
 		<div class="col-12">
 			<div class="container">
-				<div class="row">
+				<div class="row mt-5">
 					<h3>NOS ARTICLES</h3>
 				</div>
 			</div>
@@ -59,7 +59,7 @@ get_header();
 		<div class="row mb-5">
 			<div class="container">
 				<div class="col-12">
-					<div class="row justify-content-around mt-5 mb-5">
+					<div class="row justify-content-around mt-5 mb-5 p-5">
 						<?php foreach ($articles as $article) : ?>
 							<div class="card mb-5" style="width: 45%;">
 								<img class="card-img-top" src="<?= $article['image']['url']; ?>" alt="Card image cap">
@@ -83,7 +83,7 @@ get_header();
 	<div class="row video justify-content-center mt-5">
 		<div class="col-12">
 			<div class="container">
-				<div class="row">
+				<div class="row mt-5">
 					<h3>LIVRE POPULAIRES DE L'ANNEE</h3>
 				</div>
 			</div>
@@ -91,7 +91,7 @@ get_header();
 		<?php
 		$videos = get_field('video');
 		?>
-		<div class="row mb-5">
+		<div class="row mt-5 mb-5">
 			<div class="container-fluid mb-5">
 				<div class="row justify-content-between mt-5 mb-5">
 					<?php foreach ($videos as $video) : ?>
