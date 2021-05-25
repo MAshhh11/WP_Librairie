@@ -59,9 +59,9 @@ get_header();
 		<div class="row mb-5">
 			<div class="container">
 				<div class="col-12">
-					<div class="row justify-content-around mt-5 mb-5 p-5">
+					<div class="row justify-content-around mt-5 mb-5 px-1">
 						<?php foreach ($articles as $article) : ?>
-							<div class="card mb-5" style="width: 45%;">
+							<div class="card mb-5" style="width: 48%;">
 								<img class="card-img-top" src="<?= $article['image']['url']; ?>" alt="Card image cap">
 								<div class="card-body p-5">
 									<h4><?= $article['titre']; ?></h4>
