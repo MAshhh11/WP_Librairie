@@ -51,8 +51,13 @@ get_header();
     <div class="row mt-5">
         <div class="col-12">
             <div class="container">
-                <div class="row mb-5 mt-5">
+                <div class="row mb-5">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row">
+                            <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
+                            <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
+                            <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
+                        </div>
                         <div class="row">
                             <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
                             <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
