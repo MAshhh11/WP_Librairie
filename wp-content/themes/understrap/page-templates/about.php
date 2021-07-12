@@ -56,6 +56,8 @@ get_header();
                         <div class="row">
                             <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
                             <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
+                            <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
+                            <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
                         </div>
 
                     </div>
