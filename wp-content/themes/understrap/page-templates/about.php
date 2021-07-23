@@ -58,9 +58,6 @@ get_header();
                             <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
                             <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
                             <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
-                            <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
-                            <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
-                            <img src="<?= $image['url']; ?>" alt="image" style="width: 33%;">
                         </div>
 
                     </div>
